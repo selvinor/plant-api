@@ -1,0 +1,884 @@
+﻿[
+  {
+    "_id": {         
+      "$oid": "111111111111111111111100"
+    },     
+    "crop_name": "Artichoke",
+    "ph_low": "6.5",
+    "ph_high": "7.5",
+    "cf_low": "8",
+    "cf_high": "18",
+    "ppm700_low": "560",
+    "ppm700_high": "1260",
+    "day_low_temp": "40",
+    "day_high_temp": "65",
+    "night_low_temp": "60",
+    "night_high_temp": "55",
+    "min_low_temp": "50",
+    "max_high_temp": "70"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111101"
+    },     
+    "crop_name": "Arugula",
+    "ph_low": "5.5",
+    "ph_high": "6.5",
+    "cf_low": "8",
+    "cf_high": "12",
+    "ppm700_low": "560",
+    "ppm700_high": "840",
+    "day_low_temp": "50",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "70"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111102"
+    },     
+    "crop_name": "Asparagus",
+    "ph_low": "6",
+    "ph_high": "6.8",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "60",
+    "day_high_temp": "70",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111103"
+    },     
+    "crop_name": "Bush Beans Common",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "2800",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111104"
+    },     
+    "crop_name": "Bush Beans Italian ",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "2800",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111105"
+    },     
+    "crop_name": "Lima Beans",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "2800",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111106"
+    },     
+    "crop_name": "Pole Beans",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "2800",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111107"
+    },     
+    "crop_name": "Beet",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "8",
+    "cf_high": "50",
+    "ppm700_low": "1260",
+    "ppm700_high": "3500",
+    "day_low_temp": "45",
+    "day_high_temp": "50",
+    "night_low_temp": "45",
+    "night_high_temp": "50",
+    "min_low_temp": "45",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111108"
+    },     
+    "crop_name": "Bok Choy",
+    "ph_low": "7",
+    "ph_high": "7",
+    "cf_low": "15",
+    "cf_high": "20",
+    "ppm700_low": "1050",
+    "ppm700_high": "1400",
+    "day_low_temp": "40",
+    "day_high_temp": "50",
+    "night_low_temp": "40",
+    "night_high_temp": "50",
+    "min_low_temp": "40",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111109"
+    },     
+    "crop_name": "Broad Bean",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "22",
+    "ppm700_low": "1260",
+    "ppm700_high": "1540",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111110"
+    },     
+    "crop_name": "Broccoli",
+    "ph_low": "6",
+    "ph_high": "6.8",
+    "cf_low": "28",
+    "cf_high": "35",
+    "ppm700_low": "1960",
+    "ppm700_high": "2450",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111111"
+     },     
+    "crop_name": "Brussell Sprout",
+    "ph_low": "6.5",
+    "ph_high": "7.5",
+    "cf_low": "25",
+    "cf_high": "30",
+    "ppm700_low": "1750",
+    "ppm700_high": "2100",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111112"
+    },     
+    "crop_name": "Cabbage",
+    "ph_low": "6.5",
+    "ph_high": "7",
+    "cf_low": "25",
+    "cf_high": "30",
+    "ppm700_low": "1750",
+    "ppm700_high": "2100",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111113"
+    },     
+    "crop_name": "Capsicum",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "22",
+    "ppm700_low": "1260",
+    "ppm700_high": "1540",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111114"
+    },     
+    "crop_name": "Carrots",
+    "ph_low": "6.3",
+    "ph_high": "6.3",
+    "cf_low": "16",
+    "cf_high": "20",
+    "ppm700_low": "1120",
+    "ppm700_high": "1400",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "55",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111115"
+    },     
+    "crop_name": "Cauliflower",
+    "ph_low": "6.5",
+    "ph_high": "7",
+    "cf_low": "5",
+    "cf_high": "20",
+    "ppm700_low": "1050",
+    "ppm700_high": "1400",
+    "day_low_temp": "60",
+    "day_high_temp": "70",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111116"
+    },     
+    "crop_name": "Celery",
+    "ph_low": "6.5",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111117"
+    },     
+    "crop_name": "Chard",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "23",
+    "ppm700_low": "1260",
+    "ppm700_high": "1610",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111118"
+    },     
+    "crop_name": "Cucumber",
+    "ph_low": "5.5",
+    "ph_high": "5.5",
+    "cf_low": "17",
+    "cf_high": "25",
+    "ppm700_low": "1190",
+    "ppm700_high": "1750",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111119"
+    },     
+    "crop_name": "Eggplant",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "25",
+    "cf_high": "35",
+    "ppm700_low": "1750",
+    "ppm700_high": "2450",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111120"
+    },     
+    "crop_name": "Endive",
+    "ph_low": "5.5",
+    "ph_high": "6.8",
+    "cf_low": "20",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "1680",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "50",
+    "max_high_temp": "75"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111121"
+    },     
+    "crop_name": "Garlic",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "40",
+    "day_high_temp": "50",
+    "night_low_temp": "40",
+    "night_high_temp": "50",
+    "min_low_temp": "40",
+    "max_high_temp": "75"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111122"
+    },     
+    "crop_name": "Kale",
+    "ph_low": "5.5",
+    "ph_high": "6.5",
+    "cf_low": "8",
+    "cf_high": "12",
+    "ppm700_low": "560",
+    "ppm700_high": "840",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "55",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111123"
+    },     
+    "crop_name": "Leek",
+    "ph_low": "6.5",
+    "ph_high": "7",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111124"
+    },     
+    "crop_name": "Lettuce",
+    "ph_low": "5.5",
+    "ph_high": "6.5",
+    "cf_low": "8",
+    "cf_high": "12",
+    "ppm700_low": "560",
+    "ppm700_high": "840",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "55",
+    "night_high_temp": "60",
+    "min_low_temp": "40",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111125"
+    },     
+    "crop_name": "Marrow",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111126"
+    },     
+    "crop_name": "Mustard",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "12",
+    "cf_high": "24",
+    "ppm700_low": "840",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111127"
+    },     
+    "crop_name": "Okra",
+    "ph_low": "6.5",
+    "ph_high": "6.5",
+    "cf_low": "20",
+    "cf_high": "24",
+    "ppm700_low": "1400",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111128"
+    },     
+    "crop_name": "Onions",
+    "ph_low": "6",
+    "ph_high": "6.7",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111129"
+    },     
+    "crop_name": "Parsnip",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "55",
+    "day_high_temp": "75",
+    "night_low_temp": "45",
+    "night_high_temp": "55",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111130"
+    },     
+    "crop_name": "Pea",
+    "ph_low": "5.5",
+    "ph_high": "6.8",
+    "cf_low": "14",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "50",
+    "day_high_temp": "75",
+    "night_low_temp": "40",
+    "night_high_temp": "50",
+    "min_low_temp": "40",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111131"
+    },     
+    "crop_name": "Sugar Peas",
+    "ph_low": "6",
+    "ph_high": "6.8",
+    "cf_low": "8",
+    "cf_high": "18",
+    "ppm700_low": "980",
+    "ppm700_high": "1260",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "40",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111132"
+    },     
+    "crop_name": "Pepino",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "20",
+    "cf_high": "50",
+    "ppm700_low": "1400",
+    "ppm700_high": "3500",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111133"
+    },     
+    "crop_name": "Peppers",
+    "ph_low": "5.8",
+    "ph_high": "6.3",
+    "cf_low": "18",
+    "cf_high": "28",
+    "ppm700_low": "1400",
+    "ppm700_high": "2000",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111134"
+    },     
+    "crop_name": "Bell Pepper",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "28",
+    "ppm700_low": "1400",
+    "ppm700_high": "2000",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111135"
+    },     
+    "crop_name": "Hot Peppers",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "28",
+    "ppm700_low": "1400",
+    "ppm700_high": "2000",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111136"
+    },     
+    "crop_name": "Potato",
+    "ph_low": "5",
+    "ph_high": "6",
+    "cf_low": "20",
+    "cf_high": "25",
+    "ppm700_low": "1400",
+    "ppm700_high": "1750",
+    "day_low_temp": "50",
+    "day_high_temp": "65",
+    "night_low_temp": "45",
+    "night_high_temp": "55",
+    "min_low_temp": "40",
+    "max_high_temp": "70"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111137"
+    },     
+    "crop_name": "Pumpkin",
+    "ph_low": "5.5",
+    "ph_high": "7.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111138"
+    },     
+    "crop_name": "Radish",
+    "ph_low": "6",
+    "ph_high": "7",
+    "cf_low": "16",
+    "cf_high": "22",
+    "ppm700_low": "840",
+    "ppm700_high": "1540",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "55",
+    "min_low_temp": "45",
+    "max_high_temp": "85"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111139"
+    },     
+    "crop_name": "Rhubarb",
+    "ph_low": "5",
+    "ph_high": "6.8",
+    "cf_low": "16",
+    "cf_high": "20",
+    "ppm700_low": "840",
+    "ppm700_high": "1400",
+    "day_low_temp": "50",
+    "day_high_temp": "75",
+    "night_low_temp": "40",
+    "night_high_temp": "50",
+    "min_low_temp": "40",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111140"
+    },     
+    "crop_name": "Sorrel",
+    "ph_low": "5.5",
+    "ph_high": "6.8",
+    "cf_low": "18",
+    "cf_high": "23",
+    "ppm700_low": "1260",
+    "ppm700_high": "1610",
+    "day_low_temp": "60",
+    "day_high_temp": "70",
+    "night_low_temp": "50",
+    "night_high_temp": "60",
+    "min_low_temp": "45",
+    "max_high_temp": "80"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111141"
+    },     
+    "crop_name": "Spinach",
+    "ph_low": "5.5",
+    "ph_high": "6.6",
+    "cf_low": "18",
+    "cf_high": "23",
+    "ppm700_low": "1260",
+    "ppm700_high": "1610",
+    "day_low_temp": "60",
+    "day_high_temp": "65",
+    "night_low_temp": "50",
+    "night_high_temp": "55",
+    "min_low_temp": "45",
+    "max_high_temp": "75"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111142"
+    },     
+    "crop_name": "Squash",
+    "ph_low": "5",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111143"
+    },     
+    "crop_name": "Sweet Corn",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "16",
+    "cf_high": "24",
+    "ppm700_low": "840",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111144"
+    },     
+    "crop_name": "Sweet Potato",
+    "ph_low": "5.5",
+    "ph_high": "6",
+    "cf_low": "20",
+    "cf_high": "25",
+    "ppm700_low": "1400",
+    "ppm700_high": "1750",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "55",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111145"
+    },     
+    "crop_name": "Taro",
+    "ph_low": "5",
+    "ph_high": "5.5",
+    "cf_low": "25",
+    "cf_high": "30",
+    "ppm700_low": "1750",
+    "ppm700_high": "2100",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111146"
+    },     
+    "crop_name": "Tomato",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "20",
+    "cf_high": "28",
+    "ppm700_low": "1500",
+    "ppm700_high": "1960",
+    "day_low_temp": "70",
+    "day_high_temp": "95",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "95"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111147"
+    },     
+    "crop_name": "Turnip",
+    "ph_low": "6",
+    "ph_high": "6.5",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "65",
+    "day_high_temp": "75",
+    "night_low_temp": "55",
+    "night_high_temp": "65",
+    "min_low_temp": "40",
+    "max_high_temp": "75"
+  },
+  {
+    "_id": {         
+      "$oid": "111111111111111111111148"
+    },     
+    "crop_name": "Zucchini",
+    "ph_low": "6",
+    "ph_high": "6",
+    "cf_low": "18",
+    "cf_high": "24",
+    "ppm700_low": "1260",
+    "ppm700_high": "1680",
+    "day_low_temp": "70",
+    "day_high_temp": "80",
+    "night_low_temp": "60",
+    "night_high_temp": "70",
+    "min_low_temp": "50",
+    "max_high_temp": "90"
+  }
+]

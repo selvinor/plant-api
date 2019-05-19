@@ -1,0 +1,19 @@
+﻿{
+  "plants":[
+  {
+    "_id": "111111111111111111111100",     
+    "crop_name": "Artichoke",
+    "ph_low": "6.5",
+    "ph_high": "7.5",
+    "cf_low": "8",
+    "cf_high": "18",
+    "ppm700_low": "560",
+    "ppm700_high": "1260",
+    "day_low_temp": "40",
+    "day_high_temp": "65",
+    "night_low_temp": "60",
+    "night_high_temp": "55",
+    "min_low_temp": "50",
+    "max_high_temp": "70"
+  }
+]}
