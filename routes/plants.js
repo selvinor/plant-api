@@ -1,6 +1,7 @@
 'use strict';
 const express = require('express');
 const mongoose = require('mongoose');
+mongoose.set('useCreateIndex', true);
 
 const Plant = require('../models/plants');
 const router = express.Router();

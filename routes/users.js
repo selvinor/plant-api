@@ -2,6 +2,7 @@
 
 const express = require('express');
 const mongoose = require('mongoose');
+mongoose.set('useCreateIndex', true);
 
 const User = require('../models/users');
 

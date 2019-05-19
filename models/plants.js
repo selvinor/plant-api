@@ -37,7 +37,7 @@ plantSchema.methods.serialize = function() {
 };
 
 // Add `createdAt` and `updatedAt` fields
-PlantSchema.set('timestamps', true);
+plantSchema.set('timestamps', true);
 
 
 plantSchema.set('toObject', {
