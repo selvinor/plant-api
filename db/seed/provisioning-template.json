@@ -1,0 +1,92 @@
+{
+  "Parameters": {
+    "ThingName": {
+      "Type": "String"
+    },
+    "SerialNumber": {
+      "Type": "String"
+    },
+    "CSR": {
+      "Type": "String"
+    }
+  },
+  "Resources": {
+    "thing": {
+      "Type": "AWS::IoT::Thing",
+      "Properties": {
+        "ThingName": {
+          "Ref": "ThingName"
+        },
+        "AttributePayload": {
+          "version": "v1",
+          "serialNumber": {
+            "Ref": "SerialNumber"
+          },
+          "crop_name": {
+            "Ref": "crop_name"
+          },
+          "ph_low": {
+            "Ref": "ph_low"
+          },
+          "ph_high": {
+            "Ref": "ph_high"
+          },
+          "cf_low": {
+            "Ref": "cf_low"
+          },
+          "cf_high": {
+            "Ref": "cf_high"
+          },
+          "ppm700_low": {
+            "Ref": "ppm700_low"
+          },
+          "ppm700_high": {
+            "Ref": "ppm700_high"
+          },
+          "day_low_temp": {
+            "Ref": "day_low_temp"
+          },
+          "day_high_temp": {
+            "Ref": "day_high_temp"
+          },
+          "night_low_temp": {
+            "Ref": "night_low_temp"
+          },
+          "night_high_temp": {
+            "Ref": "night_high_temp"
+          },
+          "min_low_temp": {
+            "Ref": "min_low_temp"
+          },
+          "max_high_temp": {
+            "Ref": "max_high_temp"
+          }
+      
+        },
+        "ThingTypeName" :  "vegetable-crops",
+        "ThingGroups" : ["v1-vegetable-crops", {"Ref" : "crop_name"}]
+
+      },
+      "OverrideSettings" : {
+          "AttributePayload" : "MERGE",
+          "ThingTypeName" : "REPLACE",
+          "ThingGroups" : "DO_NOTHING"
+      }
+  },  
+    "certificate": {
+      "Type": "AWS::IoT::Certificate",
+      "Properties": {
+        "CertificateSigningRequest": {
+          "Ref": "CSR"
+        },
+        "Status": "ACTIVE"
+      }
+    },
+    "policy": {
+      "Type": "AWS::IoT::Policy",
+      "Properties": {
+        "PolicyDocument": "{\"Version\": \"2012-10-17\",\"Statement\": [{\"Effect\": \"Allow\",\"Action\": [\"iot:Publish\"],\"Resource\": [\"*\"]}]}"
+      }
+    }
+  }
+}
